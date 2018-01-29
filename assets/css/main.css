@@ -38,3 +38,20 @@ span {
   padding: 10px;
   background-color: chocolate;
 }
+
+.drag-block {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 250px;
+  background-color: white;
+  border: solid black;
+}
+
+.inner-block {
+  background-color: grey;
+  border-bottom: dotted black;
+  padding: 3px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
