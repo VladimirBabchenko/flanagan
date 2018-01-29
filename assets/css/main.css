@@ -1,0 +1,40 @@
+.title {
+  font-size: 25px;
+}
+
+.menu ul {
+  display: none;
+}
+
+.menu .title:before {
+  content: "▶";
+  padding-right: 6px;
+}
+
+.menu.open ul{
+  display: block;
+}
+
+.menu.open .title::before {
+  content: "▼";
+}
+
+.promise-avatar-example {
+  width: 30px;
+  height: 30px;
+}
+
+#list {
+  padding: 25px;
+  background-color: yellow;
+}
+
+li {
+  padding: 10px;
+  background-color: blue;
+}
+
+span {
+  padding: 10px;
+  background-color: chocolate;
+}
